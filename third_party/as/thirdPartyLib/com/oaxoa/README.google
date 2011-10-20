@@ -1,0 +1,11 @@
+URL: http://blog.oaxoa.com/
+Version: 0.5
+License: MIT
+License File: LICENSE
+
+Description:
+AS3 Class to mimic a real lightning or electric discharge
+
+
+Local Modifications:
+Lots. Mostly exception handling and efficiency.

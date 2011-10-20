@@ -1,0 +1,10 @@
+URL: http://code.google.com/p/urlkit/
+Version: 0.62
+License: MIT
+License File: LICENSE
+
+Description:
+Flex library providing a rule-based URL parser/generator for deep linking
+
+Local Modifications:
+Small bugfixes.  Picnik will be isolating these and moving in the near future.
