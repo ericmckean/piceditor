@@ -7,4 +7,9 @@ Description:
 Various filters
 
 Local Modifications:
-None.  Picnik will be isolating these changes in the near future.
+SharpenFilter.as: 
+ - Updated from Flash8/as2 to as3
+
+ ColorMatrix.as:
+  - Changed function concat() to concatMatrix() to avoid name conflict
+

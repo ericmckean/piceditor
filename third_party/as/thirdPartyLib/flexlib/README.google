@@ -7,4 +7,11 @@ Description:
 This is a library of flex widgets.
 
 Local Modifications:
-Minor Modifications.  Picnik will be isolating them in the near future
+baseClasses.SliderBase.loadResources():
+ - Changes paths to resources to explicitly reference resource bundle name ("SharedResources")
+
+containers.utilityClasses.FlowLayout:
+ - Added lastUnscaledWidth private member
+ - Implemented TODO in measure(): 
+    o do delayed updates if we are not ready to update yet
+ - updateDislayList() does not measure on first call
